@@ -1,11 +1,10 @@
 "use client"
 
-import logo from "../../../assets/logoSaude1.png"
+import logo from "../../../assets/logoSaude.png"
 import Image from "next/image"
 import Menu from "../Menu/Menu"
 import Title from "../Title/Title"
 import { ContainerHeader, DivTitleLogo, StyledHeader } from "./Header.style"
-import Button from "../Button/Button"
 import { colors } from "@/styles/colors"
 
 export const Header = () => {
@@ -17,7 +16,6 @@ export const Header = () => {
                     <Title texto="Saúde Conectada" color={colors.primary.grayBlue}/>
                     <Image src={logo} alt="Logo da Saúde Conectada"/>
                 </DivTitleLogo>
-                <Button texto="Login"/>
             </ContainerHeader>
         </StyledHeader>
     )
