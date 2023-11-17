@@ -17,6 +17,10 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
+a {
+    text-decoration: none;
+}
 `
 
 export default GlobalStyles
