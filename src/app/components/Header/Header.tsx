@@ -1,6 +1,6 @@
 "use client"
 
-import logo from "../../../assets/logoSaude1.png"
+import logo from "../../../assets/logoSaude.png"
 import Image from "next/image"
 import Menu from "../Menu/Menu"
 import Title from "../Title/Title"
