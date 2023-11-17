@@ -1,5 +1,10 @@
+import { colors } from '@/styles/colors';
 import { lato } from '@/styles/globalStyles';
 import styled from 'styled-components';
+
+export const SpanMenu = styled.span`
+  color: ${colors.primary.grayBlue};
+`
 
 export const MenuContainer = styled.div`
   position: relative;
@@ -11,31 +16,33 @@ export const MenuContainer = styled.div`
 `;
 
 export const LinkContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
   top: 100%;
-  width: 70px;
-  background-color: #000000;
+  left: 0%;
+  width: 5vw;
+  background-color: ${colors.primary.blueStartingHeader};
+  border:1px solid ${colors.primary.grayBlue};
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding:  5px 5px;
+  padding: 8px 5px;
   border-radius: 8px;
   opacity: 100;
-  transform: translateY(-15px);
+  transform: translateY(1px);
   transition: opacity 0.3s, transform 0.3s;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 `;
 
 export const MenuItem = styled.a`
-  text-decoration: none;
-  color: #f0f0f0;
-  padding: 8px;
-  transition: background-color 0.4s;
+  color: ${colors.primary.grayBlue};
+  padding: 1px;
+  transition: background-color 0.6s;
+  border-radius: 6px;
 
   &:hover {
-    background-color: #222222;
+    background-color: ${colors.primary.grayBlue};
+    color: ${colors.primary.blueStartingHeader};
   }
 `;

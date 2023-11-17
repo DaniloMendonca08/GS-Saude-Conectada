@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { MenuContainer, LinkContainer, MenuItem } from './Menu.style';
+import { MenuContainer, LinkContainer, MenuItem, SpanMenu } from './Menu.style';
+import { colors } from '@/styles/colors';
 
 const Menu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Menu = () => {
 
   return (
     <MenuContainer onMouseEnter={handleChangeMouseEnter} onMouseLeave={handleChangeMouseLeave}>
-      <span>Menu</span>
+      <SpanMenu>Menu</SpanMenu>
       {isMenuOpen && (
         <LinkContainer>
           <Link href="/">
@@ -26,7 +27,6 @@ const Menu = () => {
           <Link href="/about">
             <MenuItem>About</MenuItem>
           </Link>
-          {/* Add more links as needed */}
         </LinkContainer>
       )}
     </MenuContainer>
