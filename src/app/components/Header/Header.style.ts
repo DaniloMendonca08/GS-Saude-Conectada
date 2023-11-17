@@ -10,3 +10,8 @@ export const ContainerHeader = styled.div`
     justify-content: space-between;
     align-items: center;
 `
+
+export const DivTitleLogo = styled.div`
+    display: flex;
+    gap: 10px;
+`

@@ -1,6 +1,8 @@
+import { Lato } from "next/font/google";
 import { createGlobalStyle } from "styled-components";
 
 const styled = { createGlobalStyle }
+export const lato = Lato({subsets: ["latin"], weight: "300"})
 
 const GlobalStyles = styled.createGlobalStyle`
 * {

@@ -1,11 +1,18 @@
+import { lato } from '@/styles/globalStyles';
 import styled from 'styled-components';
 
 export const MenuContainer = styled.div`
   position: relative;
   cursor: pointer;
+  font-family: ${lato.style.fontFamily};
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
 `;
 
 export const LinkContainer = styled.div`
+  font-size: 18px;
+  font-weight: 300;
   position: absolute;
   top: 100%;
   width: 70px;
