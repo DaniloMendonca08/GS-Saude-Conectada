@@ -8,6 +8,7 @@ export const colors = {
         grayStartingFooter: "#BBBBD7",
         grayEndingFooter: "#8E8DC2",
         grayFooterCard: "#ABB2CC",
+        lightBlue: "#DDF2FD",
         
     }
 }
