@@ -5,6 +5,9 @@ export const colors = {
         orange: "#FF8100",
         cream: "#ffe6cc",
         grayBlue: "#a2d2ff",
+        grayStartingFooter: "#BBBBD7",
+        grayEndingFooter: "#8E8DC2",
+        grayFooterCard: "#ABB2CC",
         
     }
 }

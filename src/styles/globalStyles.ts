@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     max-width: 100vw;
     overflow-x: hidden;
+    font-family: ${lato.style.fontFamily};
 }
 
 a {
