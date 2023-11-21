@@ -4,7 +4,7 @@ interface ButtonProps {
     texto: string,
     color: string,
     borderColor: string,
-    textColor: string
+    textColor: string,
 }
 
 const Button = ({ texto, color, borderColor, textColor }: ButtonProps) => {
