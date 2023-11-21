@@ -2,7 +2,7 @@ import { colors } from "@/styles/colors";
 import styled from "styled-components";
 
 export const DivContainer = styled.div`
-    background-color: ${colors.primary.cream};
+    background-color: ${colors.primary.lightBlue};
     text-align: center;
     padding: 2vh 0;
 `
