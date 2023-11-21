@@ -1,9 +1,8 @@
 "use client"
 
 import GlobalStyles from '@/styles/globalStyles'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
 
 export default function RootLayout({
   children,
@@ -13,7 +12,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <GlobalStyles />
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
