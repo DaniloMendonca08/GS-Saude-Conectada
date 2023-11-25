@@ -1,10 +1,22 @@
+import { useEffect } from "react"
 import H2Title from "../H2Title/H2Title"
 import Paragraph from "../Paragraph/Paragraph"
 import TagA from "../TagA/TagA"
 import Title from "../Title/Title"
 import { CardFaq, DivContainer } from "./BodyFaq.style"
+import { useRouter } from "next/navigation"
 
 const BodyFaq = () => {
+
+    const router = useRouter()
+
+    useEffect(() => {
+        if (sessionStorage.getItem("login") === null) {
+            router.push("/login")
+        }
+    }, [])
+
+
     return (
         <DivContainer>
         <div>

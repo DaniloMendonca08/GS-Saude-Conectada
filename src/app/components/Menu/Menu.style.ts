@@ -24,7 +24,7 @@ export const LinkContainer = styled.div`
   position: absolute;
   top: 100%;
   left: 0%;
-  width: 5vw;
+  width: 6vw;
   background-color: ${colors.primary.blueStartingHeader};
   border:1px solid ${colors.primary.grayBlue};
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);

@@ -6,8 +6,19 @@ import { CardContent, DivCard, DivImgContent, DivLinks, TextContainer } from "./
 import H2Title from "../H2Title/H2Title"
 import Paragraph from "../Paragraph/Paragraph"
 import TagA from "../TagA/TagA"
+import { useEffect } from "react"
+import { useRouter } from "next/navigation"
 
 const BodyTutoriais = () => {
+
+    const router = useRouter()
+
+    useEffect(() => {
+        if (sessionStorage.getItem("login") === null) {
+            router.push("/login")
+        }
+    }, [])
+
     return (
         <DivContainer>
         <TextContainer>

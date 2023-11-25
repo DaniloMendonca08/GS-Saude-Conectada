@@ -1,3 +1,5 @@
+"use client"
+
 import BodyTutoriais from "../components/BodyTutoriais/BodyTutoriais"
 
 const Tutoriais = () => {

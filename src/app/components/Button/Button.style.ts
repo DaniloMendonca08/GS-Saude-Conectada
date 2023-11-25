@@ -9,14 +9,17 @@ const scaleAnimation = keyframes`
     transform: scale(1.1);
   }
 `;
+interface ButtonProps {
+  bordercolor: string,
+  textcolor: string
+}
 
-
-export const StyledButton = styled.button`
+export const StyledButton = styled.button<ButtonProps>`
     font-family: ${lato.style.fontFamily};
     background-color: ${props => props.color};
-    border: 2px solid ${props => props.borderColor};
+    border: 2px solid ${props => props.bordercolor};
     border-radius: 5px;
-    color: ${props => props.textColor};
+    color: ${props => props.textcolor};
     font-size: 18px;
     padding: 5px;
     cursor: pointer;

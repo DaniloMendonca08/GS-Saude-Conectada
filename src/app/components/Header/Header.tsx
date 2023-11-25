@@ -13,7 +13,7 @@ export const Header = () => {
             <ContainerHeader>
                 <Menu />
                 <DivTitleLogo>
-                    <Title texto="Saúde Conectada" color={colors.primary.grayBlue}/>
+                    <Title texto="MyChildCare" color={colors.primary.grayBlue}/>
                     <Image src={logo} alt="Logo da Saúde Conectada"/>
                 </DivTitleLogo>
             </ContainerHeader>
