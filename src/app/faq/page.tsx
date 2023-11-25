@@ -1,3 +1,5 @@
+"use client"
+
 import BodyFaq from "../components/BodyFaq/BodyFaq"
 
 
