@@ -5,3 +5,10 @@ Primeiro, abra a pasta do projeto e faça no terminal o comando para instalar as
 Logo após isso, execute o seguinte comando: npm run dev
 
 Abra http://localhost:3000 em seu navegador para ver o projeto rodando
+
+
+Para rodar a API, instale a extensão Java Extension Pack da Microsoft.
+
+Caso não funcione, abra a pasta API em alguma IDE que suporte o JAVA nativamente, como o Intellij ou o Eclipse.
+
+Dentro da IDE, você deve abrir o arquivo presente dentro da pasta src/main/java/com/example/GlobalSolutionApplication.java
